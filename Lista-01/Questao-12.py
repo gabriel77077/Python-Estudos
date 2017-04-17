@@ -15,7 +15,7 @@ diferenca = motorista - maxima
 
 if diferenca > 0 and diferenca <= 10:
     print("Multa: R$ 50,00")
-if diferenca > 10 and diferenca <= 30:
+elif diferenca > 10 and diferenca <= 30:
     print("Multa: R$ 100,00")
-if diferenca > 30:
+else diferenca > 30:
     print("multa: R$ 200,00")
